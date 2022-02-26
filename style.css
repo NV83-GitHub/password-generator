@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;500;800&family=Roboto:wght@300&display=swap');
+
+:root {
+
+/* Colors */
+
+    --body-bg-clr: #1C1C1C ;
+    --container-bg-clr: #ECFDF5 ;
+    --h1-clr: #2B283A ;
+    --h3-clr: #6B7280 ;
+    --line-clr: #6b728079 ;
+    --span-clr: #10B981;
+    --primary-btn-clr: #10B981 ;
+    --primary-btn-hover-clr: #0ea875 ;
+    --secondary-btn-clr: #273549;
+    --secondary-btn-hover-clr: #334661;
+    --primary-btn-text-clr: #fff ;
+    --secondary-btn-text-clr: #5DEF92;
+
+/* Font-families*/
+    --ff-inter: "inter", "sans-serif";
+    --ff-karla: "karla", "sans-serif";
+
+}
+
+
+
+/* Resests */
+
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+
+body {
+    background-color: var(--body-bg-clr);
+}
+
+main {
+    border-bottom: 1px var(--line-clr) solid;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+h1 {
+    color: var(--h1-clr);
+    font-family: var(--ff-karla);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.1rem;
+}
+
+span {
+    color: var(--span-clr);
+}
+
+h3 {
+    color: var(--h3-clr);
+    margin: 1rem 0rem;
+    font-family: var(--ff-inter);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Class Selectors */
+
+.container {
+    background-color: var(--container-bg-clr);
+    width: 34rem;
+    height: 34rem;
+    margin-inline: auto;
+    margin-top: 6rem;
+    padding: 6.875rem 3.25rem 3.25rem 3.25rem;
+    border-radius: 0.9rem;
+
+}
+
+.password-display-btn {
+    background-color: var(--secondary-btn-clr);
+    width: 13rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.password-display-btn:hover {
+    background-color: var(--secondary-btn-hover-clr);
+}
+
+/* ID Selectors */
+
+#generate-btn {
+    background-color: var(--primary-btn-clr);
+    color: var(--primary-btn-text-clr);
+    font-family: var(--ff-inter);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+#generate-btn:hover {
+    background-color: var(--primary-btn-hover-clr);
+}
+
+#lightning-bolt-img {
+    width: 1rem;
+    
+}
+
