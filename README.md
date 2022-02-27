@@ -8,7 +8,7 @@ What i learned:
 
 <ul>
   <li>Generating random number with crypto.getRandomValues()</li>
-  <li>Changin the range of arrays with Array.map() method</li>
+  <li>Changing the range of arrays with Array.map() method</li>
   <li>Not new but good reminder Math.floor to get rid of the decimals</li>
   <li>How to get the id of a clicked button trough the argument passed in the function</li>
   <li>How to pass arrays as argument in a function with the spread operator ...</li>
