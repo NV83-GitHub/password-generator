@@ -87,6 +87,7 @@ h3 {
 
 .password-display-btn {
     background-color: var(--secondary-btn-clr);
+    color: var(--secondary-btn-text-clr);
     width: 13rem;
     margin: 1rem;
     padding: 0.5rem;
