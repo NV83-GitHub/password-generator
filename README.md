@@ -2,6 +2,12 @@
 
 Challenge from Scrimba, Make a functionnal password generator from this design https://www.figma.com/file/YRO9Iw5IYaOorjnRyNz4bV/Random-Password-Generator?node-id=0%3A1
 
+Try my solution <a href="https://codepen.io/nv83-github/pen/OJOBNqg">here</a>.
+
+Screenshot:
+
+<img src="./Screenshots/Password generator Screenshot.png" alt="password-generator screenshot"/>
+
 I had to research multiple things to make this work the way i wanted to, i ended-up learning a lot coding this challenge, it was super fun.
 
 What i learned:
